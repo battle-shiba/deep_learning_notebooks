@@ -8,7 +8,7 @@ The descriptions below provide a brief summary of each notebook.
 
 ## Linear Regression Model and a Binary Classifier
 
-This notebook contains two separate parts.
+**'lin_regression_and_binary_classifier.ipynb'** contains two separate parts.
 
 (1) Polynomial and ridge regression models trained on an artificially constructed dataset.
 
@@ -16,16 +16,16 @@ This notebook contains two separate parts.
 
 ## Multi-Category Multi-Layer Neural Network Classifier
 
-This notebook uses the popular MNIST dataset to train a multi-layer neural network for multi-class (digits 0-9) classification.
+**'multi-cat_classifier_NN.ipynb'** uses the popular MNIST dataset to train a multi-layer neural network for multi-class (digits 0-9) classification.
 
 ## Optimization Techniques (dropout, momentum and batch norm) for Training of a Multilayer Neural Network
 
-Like the previous notebook, this notebook shows the training of a multilayer neural network to classify the MNIST handwritten digits. 
+Like the previous notebook, **'optimized_classifier_NN.ipynb'** shows the training of a multilayer neural network to classify the MNIST handwritten digits. 
 However, this notebook showcases the use of optimization techniques like dropout, momentum, learning rate scheduling, and minibatch gradient descent.
 
 ## Convolutional Neural Network (CNN)
 
-In this notebook, a CNN is built and trained on the FashionMNIST dataset for image classification. 
+In **'CNN.ipynb'**, a CNN is built and trained on the FashionMNIST dataset for image classification. 
 
 Implementation in PyTorch.
 
@@ -39,10 +39,10 @@ To implement a GAN, we basically require 5 components:
 - Discriminator that acts as an expert to distinguish real and fake images.
 - Training loop where the competition occurs and models better themselves.
 
-This notebook shows the implementation of each of these components to build a GAN to generate images that resemble the digits from the MNIST dataset.
+**'GAN.ipynb'** shows the implementation of each of these components to build a GAN to generate images that resemble the digits from the MNIST dataset.
 
 Implementation in PyTorch.
 
 ## Domain Adaptation Model (DANN)
 
-This notebook uses the PyTorch deep learning library to build and train an unsupervised domain adaptation model to transfer knowledge from the SVHN dataset to MNIST dataset using adversarial feature alignment. 
+**'domain_adaptation_model.ipynb'** uses the PyTorch deep learning library to build and train an unsupervised domain adaptation model to transfer knowledge from the SVHN dataset to MNIST dataset using adversarial feature alignment. 
